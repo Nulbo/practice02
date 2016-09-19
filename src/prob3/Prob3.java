@@ -1,6 +1,6 @@
 package prob3;
-import java.util.Scanner;
 
+import java.util.Scanner;
 
 public class Prob3 {
 	public static void main(String[] args) {
@@ -11,7 +11,8 @@ public class Prob3 {
 		String s = scanner.nextLine();
 		
 		/*  나머지 코드를 구현합니다. */
-
+        System.out.println( s );
+        char[] a = s.toCharArray(); 
 		
 		scanner.close();
 	}
